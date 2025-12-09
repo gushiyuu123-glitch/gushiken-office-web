@@ -13,18 +13,10 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
-
       <Header />
 
-      {/* PC版 */}
-      <div className="hidden md:block">
-        <HeroPC />
-      </div>
-
-      {/* SP版 */}
-      <div className="block md:hidden">
-        <HeroSP />
-      </div>
+      <HeroPC />
+      <HeroSP />
 
       <Features />
       <Plans />
@@ -34,7 +26,6 @@ export default function App() {
       <Contact />
       <BridgeSection />
       <Footer />
-
     </div>
   );
 }

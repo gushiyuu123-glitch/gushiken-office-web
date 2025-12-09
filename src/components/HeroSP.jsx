@@ -3,9 +3,7 @@ import heroImg from "../assets/hero-office.png";
 
 export default function HeroSP() {
   return (
-    <section
-      className="relative w-full overflow-hidden z-0 sm:hidden"
-      style={{ height: "100dvh" }}   // ← 高さを完全固定
+    <section className="relative w-full h-[100dvh] overflow-hidden z-0 block md:hidden"
     >
       <motion.img
         src={heroImg}
