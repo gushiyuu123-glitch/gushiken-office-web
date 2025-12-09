@@ -3,8 +3,7 @@ import heroImg from "../assets/hero-office.png";
 
 export default function HeroPC() {
   return (
-    <section
-      className="relative w-full h-screen overflow-hidden z-0"
+    <section className="hidden sm:block relative w-full h-screen overflow-hidden z-0"
       id="hero"
     >
 
