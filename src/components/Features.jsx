@@ -9,7 +9,7 @@ export default function Features() {
 
         {/* 見出し */}
         <h2 className="text-3xl md:text-4xl font-bold text-[#0a2a52] mb-14">
-          gushiken-office-web の
+           Gushiken Office Web の
           <span className="text-[#003b8b]"> 3つの強み</span>
         </h2>
 

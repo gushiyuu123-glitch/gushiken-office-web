@@ -1,5 +1,6 @@
 import Header from "./components/Header";
-import Hero from "./components/Hero";
+import HeroPC from "./components/HeroPC";
+import HeroSP from "./components/HeroSP";
 import Features from "./components/Features";
 import Plans from "./components/Plans";
 import Flow from "./components/Flow";
@@ -9,44 +10,31 @@ import Contact from "./components/Contact";
 import BridgeSection from "./components/BridgeSection";
 import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <>
-      {/* 固定ヘッダー */}
+    <div className="min-h-screen bg-white">
+
       <Header />
 
-      {/* サイト本体 */}
-      <main className="min-h-screen bg-white">
+      {/* PC版 */}
+      <div className="hidden md:block">
+        <HeroPC />
+      </div>
 
-        {/* Hero：ページの印象を決定するパート */}
-        <Hero />
+      {/* SP版 */}
+      <div className="block md:hidden">
+        <HeroSP />
+      </div>
 
-        {/* 3つの強み */}
-        <Features />
-
-        {/* 料金プラン */}
-        <Plans />
-
-        {/* 制作の流れ */}
-        <Flow />
-
-        {/* 実績 */}
-        <Works />
-
-        {/* FAQ */}
-        <FAQ />
-
-        {/* お問い合わせ */}
-        <Contact />
-
-        {/* GUSHIKEN DESIGN への橋渡し */}
-        <BridgeSection />
-      </main>
-
-      {/* フッター：企業サイトらしい締め */}
+      <Features />
+      <Plans />
+      <Flow />
+      <Works />
+      <FAQ />
+      <Contact />
+      <BridgeSection />
       <Footer />
-    </>
+
+    </div>
   );
 }
-
-export default App;

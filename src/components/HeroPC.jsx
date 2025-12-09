@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import heroImg from "../assets/hero-office.png";
 
-export default function Hero() {
+export default function HeroPC() {
   return (
     <section
       className="relative w-full h-screen overflow-hidden z-0"
