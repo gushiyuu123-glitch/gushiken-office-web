@@ -1,9 +1,29 @@
 import { motion } from "framer-motion";
 import heroImg from "../assets/hero-office.png";
+import { useEffect } from "react";
 
 export default function HeroSP() {
+
+  // --- スマホの実高さを取得してCSS変数にセット ---
+  useEffect(() => {
+    const setHeight = () => {
+      document.documentElement.style.setProperty(
+        "--real-vh",
+        `${window.innerHeight * 0.01}px`
+      );
+    };
+
+    setHeight();
+    window.addEventListener("resize", setHeight);
+
+    return () => window.removeEventListener("resize", setHeight);
+  }, []);
+
   return (
-    <section className="relative w-full h-[85vh] overflow-hidden z-0 sm:hidden">
+    <section
+      className="relative w-full overflow-hidden z-0 sm:hidden"
+      style={{ height: "calc(var(--real-vh) * 85)" }} // ← ここがミソ！
+    >
       <motion.img
         src={heroImg}
         alt="Corporate Office"
