@@ -1,16 +1,84 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- =============================== -->
+    <!-- 基本設定（SEOの基礎） -->
+    <!-- =============================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-         <!-- Google翻訳を完全無効化 -->
     <meta name="google" content="notranslate" />
-    <title>gushiken-office-web</title>
-    
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- =============================== -->
+    <!-- タイトル（士業・企業向けに最適化） -->
+    <!-- =============================== -->
+    <title>GUSHIKEN OFFICE WEB｜士業・企業向けシンプルWeb制作</title>
+
+    <!-- =============================== -->
+    <!-- Meta Description（信頼と専門性の伝達） -->
+    <!-- =============================== -->
+    <meta
+      name="description"
+      content="GUSHIKEN OFFICE WEB は士業・中小企業向けに“伝わる構成”でWebサイトを制作します。業務整理・文章作成・信頼感のあるデザインまで一貫対応。複雑なサービスでも、初めての方に伝わるWebへ。"
+    />
+
+    <!-- =============================== -->
+    <!-- カノニカル（正規URL） -->
+    <!-- =============================== -->
+    <link rel="canonical" href="https://office.gushikendesign.com/" />
+
+    <!-- =============================== -->
+    <!-- Favicons（全部セット済み） -->
+    <!-- =============================== -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/favicon-180x180.png">
+
+    <!-- =============================== -->
+    <!-- OGP（SNSでの見え方を最適に） -->
+    <!-- =============================== -->
+    <meta property="og:title" content="GUSHIKEN OFFICE WEB｜士業・企業向けシンプルWeb制作" />
+    <meta property="og:description" content="複雑なサービスも“伝わる構成”へ。士業・中小企業向けWeb制作。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://office.gushikendesign.com/" />
+    <meta property="og:image" content="/ogp.png" />
+    <meta property="og:site_name" content="GUSHIKEN OFFICE WEB" />
+
+    <!-- =============================== -->
+    <!-- Twitter Card -->
+    <!-- =============================== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GUSHIKEN OFFICE WEB｜士業・企業向けWeb制作" />
+    <meta name="twitter:description" content="士業・中小企業向けWeb制作。構成・文章・デザインまで一貫対応。" />
+    <meta name="twitter:image" content="/ogp.png" />
+
+    <!-- =============================== -->
+    <!-- JSON-LD（Google向け情報タグ） -->
+    <!-- =============================== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "GUSHIKEN OFFICE WEB",
+        "image": "https://office.gushikendesign.com/ogp.png",
+        "url": "https://office.gushikendesign.com/",
+        "description": "士業・中小企業向けのWeb制作。複雑な業務内容を整理し、伝わる構成と信頼感のあるデザインでサイトを制作します。",
+        "areaServed": "Japan",
+        "sameAs": [
+          "https://gushikendesign.com/"
+        ]
+      }
+    </script>
+
+    <!-- =============================== -->
+    <!-- Vite（React） -->
+    <!-- =============================== -->
+    <script type="module" src="/src/main.jsx"></script>
   </head>
+
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
