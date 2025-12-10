@@ -45,16 +45,18 @@ export default function HeroSP() {
               GUSHIKEN OFFICE WEB
             </p>
 
-            <h1 className="text-2xl font-bold text-[#0a2a52] leading-snug mb-5 drop-shadow-[0_1px_3px_rgba(0,0,0,0.06)]">
-              専門性を
-              <span className="text-[#003b8b]"> “正しく伝える Web” </span>
-              が信頼をつくる。
-            </h1>
+        <h1 className="text-2xl font-bold text-[#0a2a52] leading-snug mb-5 drop-shadow-[0_1px_3px_rgba(0,0,0,0.06)]">
+  伝えたいことを
+  <span className="text-[#003b8b]"> “正しく届ける Web” </span>
+  へ。
+</h1>
 
-            <p className="text-sm text-[#2d3b4f] leading-relaxed mb-8 drop-shadow-[0_1px_2px_rgba(0,0,0,0.05)]">
-              業務内容の整理から文章作成・デザインまで一貫対応。
-              はじめての方にも伝わる Web を構築します。
-            </p>
+
+     <p className="text-sm text-[#2d3b4f] leading-relaxed mb-8 drop-shadow-[0_1px_2px_rgba(0,0,0,0.05)]">
+  内容整理から文章作成、デザインまで一貫対応。
+  初めての方でも分かりやすい Web をご提案します。
+</p>
+
 
             <div className="flex flex-col gap-3">
 

@@ -34,12 +34,13 @@ export default function Features() {
               ① 専門知識ゼロでも伝わる<br />“わかりやすい構成”
             </h3>
 
-            <p className="text-[#2d3b4f] leading-relaxed">
-              税理士・社労士・行政書士などの士業や
-              中小企業のサービス内容を丁寧に整理し、
-              <strong>誰が見ても理解できる情報構成</strong>を作成します。
-              Web初心者の方でも安心して依頼できる形に整えます。
-            </p>
+      <p className="text-[#2d3b4f] leading-relaxed">
+  お店や事業内容を分かりやすく届けるために、
+  情報をていねいに整理し、
+  <strong>見る人に伝わるWeb構成</strong>へと整えます。
+  Webが初めての方にも安心のサポートです。
+</p>
+
           </div>
 
           {/* === 2 === */}

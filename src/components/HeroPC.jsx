@@ -43,20 +43,21 @@ export default function HeroPC() {
           </p>
 
           {/* キャッチコピー */}
-          <h1 className="text-3xl md:text-5xl font-bold text-[#0a2a52] leading-tight mb-6">
-            専門性を
-            <br />
-            <span className="text-[#003b8b]">“正しく伝える Web”</span>が
-            <br />
-            信頼をつくる。
-          </h1>
+    <h1 className="text-3xl md:text-5xl font-bold text-[#0a2a52] leading-tight mb-6">
+  伝えたいことを
+  <br />
+  <span className="text-[#003b8b]">“正しく届く Web”</span>に。
+  <br />
+  信頼は、わかりやすさから生まれる。
+</h1>
+
 
           {/* 説明文 */}
-          <p className="text-base md:text-lg text-[#2d3b4f] leading-relaxed mb-10">
-            業務内容の整理から文章作成・デザインまで一貫対応。
-            士業・中小企業の複雑なサービスを、
-            はじめての方にも伝わる Web に構築します。
-          </p>
+        <p className="text-base md:text-lg text-[#2d3b4f] leading-relaxed mb-10">
+  サービス内容を分かりやすく整理し、文章作成からデザインまで一貫対応。
+  どんな事業でも、はじめて見る人に“しっかり伝わる Web”を制作します。
+</p>
+
 
           {/* CTA */}
           <div className="flex flex-wrap gap-4 md:gap-6">
