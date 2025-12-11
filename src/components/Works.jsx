@@ -21,21 +21,31 @@ export default function Works() {
         {/* 実績カード枠 */}
         <div className="grid md:grid-cols-3 gap-10">
 
-          {/* === Work 1 === */}
-          <div className="group rounded-2xl overflow-hidden border border-[#e5eaf0] shadow-sm 
-                          transition hover:shadow-md hover:-translate-y-1 duration-200">
-            <div className="bg-[#f3f5f8] h-52 flex items-center justify-center text-[#9caaba] text-sm">
-              （教室サイト・準備中）
-            </div>
+          {/* === Work 1（教室・スクール） === */}
+          <a
+            href="https://haru-learning.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group rounded-2xl overflow-hidden border border-[#e5eaf0] shadow-sm 
+                       transition hover:shadow-md hover:-translate-y-1 duration-200 block"
+          >
+            {/* サムネイル画像 */}
+            <img
+              src="/haru.webp"
+              alt="haru-learning 教室サイト"
+              className="w-full h-52 object-cover bg-[#f3f5f8]"
+            />
+            
             <div className="p-6">
               <h3 className="text-lg font-semibold text-[#0a2a52] mb-2">
                 教室・スクール（架空サイト）
               </h3>
               <p className="text-[#4a5768] text-sm leading-relaxed">
-                誰でも安心して通いたくなる、優しいトーンのデザインを制作予定です。
+                初心者でも安心して通いたくなる、やさしい雰囲気のパソコン教室サイト。
+                使いやすさと信頼感を重視した構成で制作しました。
               </p>
             </div>
-          </div>
+          </a>
 
           {/* === Work 2 === */}
           <div className="group rounded-2xl overflow-hidden border border-[#e5eaf0] shadow-sm 
@@ -70,7 +80,6 @@ export default function Works() {
           </div>
 
         </div>
-
       </div>
     </section>
   );
