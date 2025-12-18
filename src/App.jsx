@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import Header from "./components/Header";
 import HeroPC from "./components/HeroPC";
 import HeroSP from "./components/HeroSP";
@@ -26,6 +27,8 @@ export default function App() {
       <Contact />
       <BridgeSection />
       <Footer />
+      
+      <Analytics />
     </div>
   );
 }
